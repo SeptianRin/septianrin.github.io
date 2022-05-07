@@ -4,17 +4,17 @@ import Fade from "react-reveal";
 class About extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image;
-    const bio = this.props.data.bio;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const email = this.props.data.email;
-    const resumeDownload = this.props.data.resumedownload;
+    const bio = this.props.data.bio;    
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url}>
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
 
     return (
       <section id="about">
@@ -24,7 +24,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt="Septian Rinaldi R Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
@@ -32,28 +32,17 @@ class About extends Component {
 
               <p>{bio}</p>
               <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
+                <div className="twelve columns">
+                  <footer>
+                    <div className="row">
+                      <Fade bottom>
+                      <h2>Social Media</h2>
+                        <div className="twelve columns">
+                          <ul className="social-links">{networks}</ul>
+                        </div>
+                      </Fade>
+                    </div>
+                  </footer>
                 </div>
               </div>
             </div>

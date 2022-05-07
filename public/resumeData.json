@@ -1,108 +1,90 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Septian Rinaldi Rianggoro",
+    "description":"I am Mobile Developer that currently focus on Android Development. Interested in app development and deployment and new things.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I am Mobile Developer that currently focus on Android Development. Interested in app development and deployment and new things, like Machine learning and how to implement it. currently in touch with web building to make my own blog",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "septianrinaldi98@gmail.com",
+    "phone": "Connect with me in linkedin",
+    "github":"https://github.com/septianrin",
+    "blog":"http://blog.septianrin.space",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://septianrin.space",
+    "resumedownload":"https://www.linkedin.com/in/septianrin/",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"http://twitter.com/septianrin",
         "className":"fa fa-twitter"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/septianrin/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"https://www.instagram.com/septianrin_/",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/septianrin",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"I've been working on some of this skill, but not limited to",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Universitas Negeri Semarang",
+        "degree":"Bachelor of Education (IT)",
+        "graduated":"-",
+        "description":"I study about how to teach vocational student with IT concentration, have been doing several internship to make learning material in BPTIK DIKBUD Provinsi Jawa Tengah and Teaching Assistant in SMKN 1 Tengaran"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"SMA Negeri 1 Bergas",
+        "degree":"Highschool (Science)",
+        "graduated":"May 2016",
+        "description":"Learn how to teamwork and collaboratewith my colleague in PMR"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"PT.Infosys Solusi Terpadu",
+        "title":"Mobile Developer (Android) ",
+        "years":"September 2022 - Present",
+        "description":"Working as Android Developer using Kotlin and VIPER pattern to make banking app solution"
       }
+      
     ],
     "skills":[
+      {
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"Kotlin",
+        "level":"80%"
+      },
+      {
+        "name":"Android Development",
+        "level":"75%"
+      },
       {
         "name":"Python",
         "level":"60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Flutter",
+        "level":"30%"
       }
     ]
   },
