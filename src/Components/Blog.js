@@ -10,7 +10,7 @@ class Blog extends Component {
     componentDidMount(){
         try {
             (async () => {
-                await parser.parseURL('http://blog.septianrin.space/index.xml')
+                await parser.parseURL('https://blog.septianrin.space/index.xml')
                 .then(responseData => {
                     responseData.items.forEach(item => {
                         blogItem.push(item)
