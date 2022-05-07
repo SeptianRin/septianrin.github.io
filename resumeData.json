@@ -1,0 +1,167 @@
+{
+  "main": {
+    "name":"Septian Rinaldi Rianggoro",
+    "description":"I am Mobile Developer that currently focus on Android Development. Interested in app development and deployment and new things.",
+    "image":"profilepic.jpg",
+    "bio":"I am Mobile Developer that currently focus on Android Development. Interested in app development and deployment and new things, like Machine learning and how to implement it. currently in touch with web building to make my own blog",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "septianrinaldi98@gmail.com",
+    "phone": "Connect with me in linkedin",
+    "github":"https://github.com/septianrin",
+    "blog":"http://blog.septianrin.space",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://septianrin.space",
+    "resumedownload":"https://www.linkedin.com/in/septianrin/",
+    "social":[
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/septianrin",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/septianrin/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/septianrin_/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/septianrin",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I've been working on some of this skill, but not limited to",
+    "education":[
+      {
+        "school":"Universitas Negeri Semarang",
+        "degree":"Bachelor of Education (IT)",
+        "graduated":"-",
+        "description":"I study about how to teach vocational student with IT concentration, have been doing several internship to make learning material in BPTIK DIKBUD Provinsi Jawa Tengah and Teaching Assistant in SMKN 1 Tengaran"
+      },
+      {
+        "school":"SMA Negeri 1 Bergas",
+        "degree":"Highschool (Science)",
+        "graduated":"May 2016",
+        "description":"Learn how to teamwork and collaboratewith my colleague in PMR"
+      }
+    ],
+    "work":[
+      {
+        "company":"PT.Infosys Solusi Terpadu",
+        "title":"Mobile Developer (Android) ",
+        "years":"September 2022 - Present",
+        "description":"Working as Android Developer using Kotlin and VIPER pattern to make banking app solution"
+      }
+      
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"Kotlin",
+        "level":"80%"
+      },
+      {
+        "name":"Android Development",
+        "level":"75%"
+      },
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"Flutter",
+        "level":"30%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
