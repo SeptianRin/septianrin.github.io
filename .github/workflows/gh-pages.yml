@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -33,6 +33,6 @@ jobs:
   # uses: crazy-max/ghaction-github-pages@a117e4aa1fb4854d021546d2abdfac95be568a3a
       uses: crazy-max/ghaction-github-pages@v2.6.0
       with:
-        build_dir: ./public
+        build_dir: ./build
       env:
           GH_PAT: ${{ secrets.PERSONAL_TOKEN }}
